@@ -133,6 +133,8 @@
 
 *	`useradd -g <main_group> -G <group_list> <username>` - создание пользователя
 *	`runuser -l <user> -c <command>` - запуск команды <command> от имени пользователя <user>
+*	`sudo -u<user>` <command> - запуск команды <command> от имени пользователя <user>
+*	`su <user>` - сменить пользователя (switch user) на <user>
 
 ### Типы пользователей
 В ОС Linux существует три типа пользователей:
